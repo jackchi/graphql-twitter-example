@@ -1,0 +1,11 @@
+# TypeScript incremental compilation cache
+*.tsbuildinfo
+
+# Coverage (from Jest)
+coverage/
+
+# Node modules
+node_modules/
+
+# Mac OS
+.DS_Store
