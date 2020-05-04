@@ -17,6 +17,7 @@ const server = new ApolloServer({
         password: auth
       }
     });
+    if (!user) return { user: null };
     return { user: { ...user.dataValues } };
   },
   typeDefs,
